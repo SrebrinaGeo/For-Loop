@@ -1,0 +1,22 @@
+import sys
+
+max_num = -sys.maxsize
+sum_numbers = 0
+
+num_count = int(input())
+
+for _ in range(num_count):
+    current_num = int(input())
+    if current_num > max_num:
+        max_num = current_num
+
+    sum_numbers += current_num
+
+rest_sum = sum_numbers = max_num
+
+if max_num == rest_sum:
+    print(f'Yes\nSum = {max_num}')
+
+else:
+    diff = abs(max_num - rest_sum)
+    print(f'No\nDiff = {diff}')
