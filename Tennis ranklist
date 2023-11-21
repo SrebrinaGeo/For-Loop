@@ -1,0 +1,24 @@
+number_tourn = int(input())
+starting_points = int(input())
+
+tourn_points = 0
+number_of_wins = 0
+
+for _ in range(number_tourn):
+    stage_of_tourn = input()
+
+    if stage_of_tourn == 'W':
+        tourn_points += 2000
+        number_of_wins += 1
+    elif stage_of_tourn == 'F':
+        tourn_points += 1200
+    elif stage_of_tourn == 'SF':
+        tourn_points += 720
+
+total_points = tourn_points + starting_points
+average_points_for_one = int(tourn_points / number_tourn)
+percentage_wins = number_of_wins / number_tourn * 100
+
+print(f"Final points: {total_points}")
+print(f"Average points: {average_points_for_one}")
+print(f"{percentage_wins:.2f}%")
