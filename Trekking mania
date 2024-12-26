@@ -22,7 +22,6 @@ for _ in range(number_of_groups):
     elif current_groups_count >= 41:
         everest += current_groups_count
 
-
 mussala_percent = mussala / total_number_of_people * 100
 montblanc_percent = montblanc / total_number_of_people * 100
 kilimanjaro_percent = kilimanjaro / total_number_of_people * 100
