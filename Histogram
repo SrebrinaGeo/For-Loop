@@ -19,7 +19,6 @@ for _ in range(num_count):
     elif current_num >= 800:
         p5_count += 1
 
-
 p1_percent = p1_count / num_count * 100
 p2_percent = p2_count / num_count * 100
 p3_percent = p3_count / num_count * 100
