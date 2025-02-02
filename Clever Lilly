@@ -16,3 +16,4 @@ if total_money >= wash_price:
     print(f'Yes! {total_money - wash_price :.2f}')
 else:
     print(f'No! {wash_price - total_money:.2f}')
+
