@@ -20,3 +20,4 @@ if max_num == rest_sum:
 else:
     diff = abs(max_num - rest_sum)
     print(f'No\nDiff = {diff}')
+
