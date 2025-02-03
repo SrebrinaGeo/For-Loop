@@ -30,3 +30,4 @@ print(f"{p2_percent:.2f}%")
 print(f"{p3_percent:.2f}%")
 print(f"{p4_percent:.2f}%")
 print(f"{p5_percent:.2f}%")
+
