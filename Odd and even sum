@@ -18,3 +18,4 @@ else:
     diff = abs(odd_sum - even_sum)
     print(f"No")
     print(f"Diff = {diff}")
+
