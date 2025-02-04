@@ -22,3 +22,4 @@ percentage_wins = number_of_wins / number_tourn * 100
 print(f"Final points: {total_points}")
 print(f"Average points: {average_points_for_one}")
 print(f"{percentage_wins:.2f}%")
+
