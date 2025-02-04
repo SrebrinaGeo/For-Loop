@@ -33,3 +33,4 @@ print(f'{montblanc_percent:.2f}%')
 print(f'{kilimanjaro_percent:.2f}%')
 print(f'{k2_percent:.2f}%')
 print(f'{everest_percent:.2f}%')
+
